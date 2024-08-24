@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import photo from "../../assets/images/photographer-about-img.jpg"
+import photo from "../../assets/images/arshadvk.webp"
 
 const About = () => {
     return (

@@ -23,7 +23,7 @@ import "swiper/css/effect-flip";
 import InteriorConstructionWork from '../../components/InteriorConstructionWork';
 
 interface SoftwareAboutData {
-  icon: string; title: string;
+  icon: string; title: string; description : string;
 }
 
 interface Testimonials {
@@ -31,9 +31,9 @@ interface Testimonials {
 }
 
 const softwareAboutData: SoftwareAboutData[] = [
-  { icon: 'pe-7s-light', title: 'Creative Design', },
-  { icon: 'pe-7s-portfolio', title: 'Easy to Use', },
-  { icon: 'pe-7s-like2', title: 'Secure Data' }
+  { icon: 'pe-7s-light', title: 'Creative Design', description : "I always deliver visually captivating and technologically robust web solutions tailored to your unique needs" },
+  { icon: 'pe-7s-like2', title: '24/7 Support' , description : "I always there for you, offering round-the-clock assistance to ensure your website runs smoothly and efficiently."  },
+  { icon: 'pe-7s-credit', title: 'Cost Effective' , description : "I create stunning websites that don't break the bank, providing high-quality design at an affordable price."}
 ];
 
 const testimonials: Testimonials[] = [
@@ -96,7 +96,7 @@ const Section = () => {
                     <i className={item.icon} />
                   </div>
                   <h4 className="f-15 text-uppercase letter-spacing_2 mt-4">{item.title}</h4>
-                  <p className="text-muted mt-4">Quisque rutrum vamus lectus nulla dictum venenatis celerisque felis porta morbi conentum vebulum libero.</p>
+                  <p className="text-muted mt-4">{item.description}</p>
                 </div>
               </Col>
             ))}

@@ -28,7 +28,7 @@ const Service = () => {
                         <Col lg={8}>
                             <div className="text-center">
                                 <h2 className="heading-title-title letter-spacing_4 text-uppercase">Our Services</h2>
-                                <p className="heading-title-desc text-muted mt-4">Pellentesque habitant morbi tristique senectus malesuada fames turpis egestas duis dignissim finibus commodo nibh malesuada sollis diam.</p>
+                                <p className="heading-title-desc text-muted mt-4">Whether You Are Starting A New Business Or Growing An Existing One <br /> We’ve Got You Covered.</p>
                             </div>
                         </Col>
                     </Row>

@@ -42,10 +42,10 @@ const InteriorConstructionWork: React.FC = () => {
                         <Col lg={6}>
                             <div className="text-center">
                                 <h2 className="heading-title-title letter-spacing_4 text-uppercase">Recent Project</h2>
-                                <p className="heading-title-desc text-muted mt-4 mb-0">
-                                    Pellentesque habitant morbi tristique senectus malesuada fames turpis egestas duis dignissim finibus
-                                    commodo nibh malesuada sollis diam.
-                                </p>
+                                {/* <p className="heading-title-desc text-muted mt-4 mb-0">
+                                My Recent Popular Awesome
+                                Completed Projects
+                                </p> */}
                             </div>
                         </Col>
                         <Col lg={8}>
