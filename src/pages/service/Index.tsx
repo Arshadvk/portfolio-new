@@ -1,10 +1,25 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
+import node from "../../assets/images/skills/node.png"
+import next from "../../assets/images/skills/nextjs.png"
+import php from "../../assets/images/skills/php.png"
+import laravel from "../../assets/images/skills/laravel.png"
+import expressjs from "../../assets/images/skills/expressjs.png"
+import mongodb from "../../assets/images/skills/mongodb.png"
+import react from "../../assets/images/skills/react.png"
+import tailwind from "../../assets/images/skills/tailwind.png"
+import typescript from "../../assets/images/skills/typescript.png"
+import bootstrap from "../../assets/images/skills/bootstrap.png"
+import dsa from "../../assets/images/skills/dsa.png"
+
 
 interface ServicesData {
     icon: string; title: string; description?:string;
 }
 
+interface BookChapter {
+    icon: string; title: string; path ?: string;
+}
 const servicesData: ServicesData[] = [
     { icon: 'pe-7s-pen', title: 'Web design',  description: "Crafting visually stunning and user-friendly designs, ensuring that your digital presence stands out while capturing your brand's essence. We believe that every pixel has a purpose"},
     { icon: 'pe-7s-config', title: 'Web development',  description: "Building robust and scalable websites with a focus on performance and security. From concept to deployment, we deliver seamless functionality to meet your business goals."},
@@ -18,6 +33,19 @@ const servicesData: ServicesData[] = [
 ];
 
 
+const chapterData: BookChapter[] = [
+    { icon: 'pe-7s-rocket', title: 'Next.js', path : next },
+    { icon: 'pe-7s-camera', title: 'PHP', path : php },
+    { icon: 'pe-7s-medal', title: 'Laravel',path : laravel },
+    { icon: 'pe-7s-like', title: 'Express Js', path : expressjs},
+    { icon: 'pe-7s-node', title: 'Node Js',path : node },
+    { icon: 'pe-7s-diamond', title: 'MongoDB', path : mongodb},
+    { icon: 'pe-7s-diamond', title: 'React Js', path : react},
+    { icon: 'pe-7s-diamond', title: 'Tailwind CSS',path: tailwind },
+    { icon: 'pe-7s-diamond', title: 'Type Script',path : typescript},
+    { icon: 'pe-7s-diamond', title: 'Bootstrap',path : bootstrap },
+    { icon: 'pe-7s-diamond', title: 'DSA', path : dsa },
+];
 
 const Service = () => {
   return (
@@ -48,6 +76,37 @@ const Service = () => {
                     </Row>
                 </Container>
         </section>
+
+        <section className="section" id="services">
+                <Container>
+                    <Row className='justify-content-center'>
+                        <Col lg={8}>
+                            <div className="text-center">
+                                <h2 className="heading-title-title letter-spacing_4 text-uppercase">Skills / Tools</h2>
+                                {/* <p className="heading-title-desc text-muted mt-4">
+                                    Pellentesque habitant morbi tristique senectus malesuada fames turpis egestas duis dignissim finibus
+                                    commodo nibh malesuada sollis diam.
+                                </p> */}
+                            </div>
+                        </Col>
+                    </Row>
+
+                    <Row className="mt-5 pt-3">
+                        {(chapterData || [])?.map((item: BookChapter, index: number) => (
+                            <Col xs={6} lg={2} key={index}>
+                                <div className="book-services-box text-center mt-4">
+                                    <div className="book-services-icon">
+                                        {/* <i className={item.icon}></i> */}
+                                        <img src={item.path} height={20} alt="" />
+
+                                    </div>
+                                    <h4 className="f-15 text-uppercase letter-spacing_2 mt-3">{item.title}</h4>
+                                </div>
+                            </Col>
+                        ))}
+                    </Row>
+                </Container>
+            </section>
     </React.Fragment>
   )
 }
