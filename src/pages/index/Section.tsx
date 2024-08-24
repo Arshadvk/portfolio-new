@@ -10,9 +10,10 @@ import feature4 from "../../assets/images/features/feature-4.png"
 import feature5 from "../../assets/images/features/feature-5.png"
 
 
-import user1 from "../../assets/images/users/user-1.jpg"
-import user2 from "../../assets/images/users/user-2.jpg"
-import user3 from "../../assets/images/users/user-3.jpg"
+import user1 from "../../assets/images/users/ansar.webp"
+import user2 from "../../assets/images/users/ali.webp"
+import user3 from "../../assets/images/users/ansar.webp"
+
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -39,7 +40,7 @@ const softwareAboutData: SoftwareAboutData[] = [
 const testimonials: Testimonials[] = [
   { id: 1, author: 'Dennis Hammer', role: 'Founder', image: user1 },
   { id: 2, author: 'Robert Chea', role: 'Designer', image: user2 },
-  { id: 3, author: 'Victor Smith', role: 'Manager', image: user3 }
+  { id: 3, author: 'Ansar Hamsa', role: 'Manager', image: user3 }
 ];
 
 
