@@ -73,9 +73,7 @@ const AgencyInteriorContact: React.FC = () => {
                         <Col lg={8}>
                             <div className="home-title text-center">
                                 <h2 className="heading-title-title letter-spacing_4 text-uppercase">Contact Us</h2>
-                                <p className="heading-title-desc text-muted mt-4">Pellentesque habitant morbi tristique senectus
-                                    malesuada fames turpis egestas duis dignissim finibus commodo nibh malesuada sollis diam.
-                                </p>
+                                <p>  Simply complete the quick contact form bellow and I’ll reply (usually within one working day) to discuss your requirements and business goals.                               </p>
                             </div>
                         </Col>
                     </Row>

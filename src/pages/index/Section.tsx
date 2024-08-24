@@ -67,7 +67,7 @@ const Section = () => {
                     I'M Arshad Vk
                     </h4>
                     <p className="softwere-home-desc f-15 mt-4 mx-auto">
-                      I am Software Developer at Maxhome Properties in Abu Dhabi Uae 
+                    <b> Do You Want a Website?</b> <br />That is Designed To Help Your Business Succeed. <br /> Don’t Worry, Book a Free Consultation and Left the Rest On Us
                     </p>
                   </div>
                 </Col>
