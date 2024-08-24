@@ -11,8 +11,8 @@ import feature5 from "../../assets/images/features/feature-5.png"
 
 
 import user1 from "../../assets/images/users/ansar.webp"
-import user2 from "../../assets/images/users/ali.webp"
-import user3 from "../../assets/images/users/ansar.webp"
+import user2 from "../../assets/images/users/ansar.webp"
+import user3 from "../../assets/images/users/ali.webp"
 
 
 import "swiper/css";
@@ -38,7 +38,7 @@ const softwareAboutData: SoftwareAboutData[] = [
 ];
 
 const testimonials: Testimonials[] = [
-  { id: 1, author: 'Dennis Hammer', role: 'Founder', image: user1 },
+  { id: 1, author: 'Ali', role: 'Founder', image: user1 },
   { id: 2, author: 'Robert Chea', role: 'Designer', image: user2 },
   { id: 3, author: 'Ansar Hamsa', role: 'Manager', image: user3 }
 ];
