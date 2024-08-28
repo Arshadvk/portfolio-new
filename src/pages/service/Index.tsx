@@ -11,6 +11,7 @@ import tailwind from "../../assets/images/skills/tailwind.png"
 import typescript from "../../assets/images/skills/typescript.png"
 import bootstrap from "../../assets/images/skills/bootstrap.png"
 import dsa from "../../assets/images/skills/dsa.png"
+import ae from "../../assets/images/skills/ae.png"
 
 
 interface ServicesData {
@@ -18,7 +19,7 @@ interface ServicesData {
 }
 
 interface BookChapter {
-    icon: string; title: string; path ?: string;
+    title: string; path ?: string;
 }
 const servicesData: ServicesData[] = [
     { icon: 'pe-7s-pen', title: 'Web design',  description: "Crafting visually stunning and user-friendly designs, ensuring that your digital presence stands out while capturing your brand's essence. We believe that every pixel has a purpose"},
@@ -34,17 +35,18 @@ const servicesData: ServicesData[] = [
 
 
 const chapterData: BookChapter[] = [
-    { icon: 'pe-7s-rocket', title: 'Next.js', path : next },
-    { icon: 'pe-7s-camera', title: 'PHP', path : php },
-    { icon: 'pe-7s-medal', title: 'Laravel',path : laravel },
-    { icon: 'pe-7s-like', title: 'Express Js', path : expressjs},
-    { icon: 'pe-7s-node', title: 'Node Js',path : node },
-    { icon: 'pe-7s-diamond', title: 'MongoDB', path : mongodb},
-    { icon: 'pe-7s-diamond', title: 'React Js', path : react},
-    { icon: 'pe-7s-diamond', title: 'Tailwind CSS',path: tailwind },
-    { icon: 'pe-7s-diamond', title: 'Type Script',path : typescript},
-    { icon: 'pe-7s-diamond', title: 'Bootstrap',path : bootstrap },
-    { icon: 'pe-7s-diamond', title: 'DSA', path : dsa },
+    {  title: 'Next.js', path : next },
+    {  title: 'PHP', path : php },
+    {  title: 'Laravel',path : laravel },
+    {  title: 'Express Js', path : expressjs},
+    {  title: 'Node Js',path : node },
+    {  title: 'MongoDB', path : mongodb},
+    {  title: 'React Js', path : react},
+    {  title: 'Tailwind CSS',path: tailwind },
+    {  title: 'Type Script',path : typescript},
+    {  title: 'Bootstrap',path : bootstrap },
+    {  title: 'DSA', path : dsa },
+    {  title: 'After Effect', path : ae },
 ];
 
 const Service = () => {
