@@ -15,7 +15,7 @@ const Section1 = () => {
         <React.Fragment>
             {/* Faq */}
 
-            <section className="section book-faqs" id="faq">
+            {/* <section className="section book-faqs" id="faq">
                 <Container>
                     <Row className="justify-content-center">
                         <Col lg={7}>
@@ -37,14 +37,14 @@ const Section1 = () => {
                         <Accordions />
                     </Row>
                 </Container>
-            </section>
+            </section> */}
 
             {/* Blog */}
-            <AgencySoftwareBlog />
+            {/* <AgencySoftwareBlog /> */}
             <hr />
 
             {/* Subscribe */}
-            <Subscribe />
+            {/* <Subscribe /> */}
 
     
         </React.Fragment>

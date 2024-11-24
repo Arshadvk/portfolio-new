@@ -111,7 +111,7 @@ const Section = () => {
 
 
       {/* Features */}
-      <section className="section" id="features">
+      {/* <section className="section" id="features">
         <Container>
           <Row className='justify-content-center'>
             <Col lg={8}>
@@ -174,7 +174,7 @@ const Section = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* Counter */}
       <Counter />
@@ -183,7 +183,7 @@ const Section = () => {
       <hr />
 
       {/* Customer */}
-      <section className="section testimonial" id="client">
+      {/* <section className="section testimonial" id="client">
         <Container>
           <Row className=" justify-content-center">
             <div className="col-lg-8">
@@ -217,10 +217,10 @@ const Section = () => {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
       {/* Video */}
-      <section className="section cta-2">
+      {/* <section className="section cta-2">
         <div className="bg-overlay"></div>
         <div className="container">
           <div className="row justify-content-center">
@@ -245,7 +245,7 @@ const Section = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
     </React.Fragment>
   )
